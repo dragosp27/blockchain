@@ -47,5 +47,6 @@ RUN ./.cargo/bin/cargo install multiversx-sc-meta
 
 USER root
 RUN git clone https://github.com/multiversx/mx-contracts-rs.git
+RUN apt install -y vim
 
 USER student
